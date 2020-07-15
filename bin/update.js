@@ -3,6 +3,9 @@ THIS UPDATES A POST IN THE WEBSITE
 	Requires the following variables to be set correctly:
 	env.AGILITY_WEBSITE_NAME
 	env.AGILITY_SECURITY_KEY
+	env.AGILITY_GUID
+	env.AGILITY_API_KEY
+	env.AGILITY_API_ISPREVIEW
 */
 
 require("dotenv").config({

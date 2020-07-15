@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import agilityUtils from './agility/utils'
 import AgilityPageTemplate from './agility/components/AgilityPageTemplate'
 //Some things we need for our layout
-import LayoutTemplate from "./components/LayoutTemplate"
+import LayoutTemplate from "./components/LayoutTemplate_1"
 import PreviewBar from "./components/PreviewBar"
 import SEO from './components/SEO'
 
