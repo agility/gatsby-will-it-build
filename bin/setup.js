@@ -1,15 +1,18 @@
-
+/*
+THIS RUNS THE INITIAL SETUP FOR THE SITE BASED ON the following variables:
+	env.DATA_PATH
+	env.AGILITY_WEBSITE_NAME
+	env.AGILITY_SECURITY_KEY
+*/
 
 require("dotenv").config({
 	path: `.env.${process.env.NODE_ENV}`,
 })
 
 const async = require("async")
-
 const fs = require("fs")
 const path = require(`path`)
 const fetch = require('node-fetch');
-
 const agilityMgmt = require('@agility/content-management')
 
 const runSetup = async () => {

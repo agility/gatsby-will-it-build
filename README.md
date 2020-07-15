@@ -8,7 +8,15 @@
   Gatsby + Agility CMS : WILL IT BUILD
 </h1>
 
+## To Update Content from the CMS
+
+```shell
+num run update
+```
+
 ## Pull Content From Agility CMS
+
+For the first time setup only (this has been done by Agility CMS staff)
 
 ```shell
 npm run setup
